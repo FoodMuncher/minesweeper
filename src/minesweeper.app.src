@@ -1,0 +1,19 @@
+{application, minesweeper,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, [minesweeper_sup, minesweeper_app, logic]},
+  {mod, { minesweeper_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    ranch,
+    cowlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, [minesweeper_app, minesweeper_sup, board, logic, minesweeper_http]},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

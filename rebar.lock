@@ -1,0 +1,12 @@
+[{<<"cowboy">>,
+  {git,"git@git-mw.uk365office.co.uk:external/cowboy.git",
+       {ref,"0c15b9216b7467390623db84e169b32c68e85bcb"}},
+  0},
+ {<<"cowlib">>,
+  {git,"git@git-mw.uk365office.co.uk:external/cowlib.git",
+       {ref,"45f750db410a4b08c68d142ad0af839f544c5d3d"}},
+  0},
+ {<<"ranch">>,
+  {git,"git@git-mw.uk365office.co.uk:external/ranch.git",
+       {ref,"741bfb73ca663394ecf7a73410506d66f01985a6"}},
+  0}].
